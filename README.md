@@ -73,6 +73,8 @@ If you'd like to use an element's overflow-y instead of the window scrollbar.  Y
 
 > NOTE: This doesn't work for bottomed out or position absolute elements.
 
+When you use `sticky-on-stick` you can implement your custom function which will get called if its getting sticked.
+Otherwise you can use `sticky-on-unstick` to call your function when something gets unstuck.
 
 ### Demo
 There are various demo pages that showcase the potential of this widget under the `examples` folder. You may want to host these on a local webserver and serve via http.
